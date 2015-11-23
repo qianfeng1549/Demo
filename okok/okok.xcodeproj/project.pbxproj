@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10CEB4181C02BAF200EAD035 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CEB4171C02BAF200EAD035 /* Student.m */; };
 		B4DB1D091C02B9A100180CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DB1D081C02B9A100180CFC /* main.m */; };
 		B4DB1D0C1C02B9A100180CFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DB1D0B1C02B9A100180CFC /* AppDelegate.m */; };
 		B4DB1D0F1C02B9A100180CFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DB1D0E1C02B9A100180CFC /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10CEB4161C02BAF200EAD035 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		10CEB4171C02BAF200EAD035 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		B4DB1D031C02B9A100180CFC /* okok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB1D071C02B9A100180CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DB1D081C02B9A100180CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				B4DB1D131C02B9A100180CFC /* Images.xcassets */,
 				B4DB1D151C02B9A100180CFC /* LaunchScreen.xib */,
 				B4DB1D061C02B9A100180CFC /* Supporting Files */,
+				10CEB4161C02BAF200EAD035 /* Student.h */,
+				10CEB4171C02BAF200EAD035 /* Student.m */,
 			);
 			path = okok;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				B4DB1D0F1C02B9A100180CFC /* ViewController.m in Sources */,
 				B4DB1D0C1C02B9A100180CFC /* AppDelegate.m in Sources */,
 				B4DB1D091C02B9A100180CFC /* main.m in Sources */,
+				10CEB4181C02BAF200EAD035 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				B4DB1D281C02B9A100180CFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4DB1D291C02B9A100180CFC /* Build configuration list for PBXNativeTarget "okokTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				B4DB1D2B1C02B9A100180CFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
